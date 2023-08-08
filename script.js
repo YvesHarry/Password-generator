@@ -19,6 +19,19 @@
     generateBtn.addEventListener("click", writePassword);
 
 
+// Generating password based on the prompts.
+
+    function generatePassword() {
+        var password = '';
+        // Creating a loop.
+        for ( var i = 0; i < Length; i++) {
+        var randomValue = Math.floor (Math.random() * choice.length);
+          password = password + choice [randomValue];
+        }
+        return password;
+      }
+
+
 // Creating a function to pop up the prompts.
 
     function prompts(){
@@ -50,19 +63,6 @@
       }
     return true;
     }
-
-
-// Generating password based on the prompts.
-
-    function generatePassword() {
-        var password = '';
-        // Creating a loop.
-        for ( var i = 0; i < Length; i++) {
-        var randomValue = Math.floor (Math.random() * choice.length);
-          password = password + choice [randomValue];
-        }
-        return password;
-      }
 
 
 // Writing password to the #password input.
