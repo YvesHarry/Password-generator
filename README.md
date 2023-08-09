@@ -1,6 +1,10 @@
 # Password-generator 
 ![Password generator screenshot](./screenshot.png)
 
+# Link to the deployed application (Usage)
+
+https://yvesharry.github.io/Password-generator/
+
 # User Story
 
 AS AN employee with access to sensitive data
@@ -25,5 +29,4 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
-# Link to the deployed application 
-https://yvesharry.github.io/Password-generator/
+
