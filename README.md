@@ -1,4 +1,5 @@
 # Password-generator 
+![Password generator screenshot](./screenshot.png)
 
 # User Story
 
